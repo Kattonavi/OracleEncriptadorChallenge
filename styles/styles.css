@@ -1,0 +1,83 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #1c1c22;
+  color: #b4b4be;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50rem;
+  padding: 10px;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+.subheader {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.principal-content {
+  width: 100%;
+  padding-top: 7rem;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #09555c;
+  border-radius: 5px;
+  background-color: #12063b;
+  color: #b4b4be;
+  resize: none;
+  height: 150px;
+}
+
+textarea:disabled {
+  background-color: #12063b;
+  color: #666;
+}
+
+.buttons, #copiar {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #09555c;
+  color: #b4b4be;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #12063b;
+}
+
+footer {
+  display: block;
+  unicode-bidi: isolate;
+  width: 100%;
+  margin-top: 8rem;
+  text-align: center;
+  font-size: 0.9em;
+  background-color: #12063b;
+}
